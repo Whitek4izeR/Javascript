@@ -1,6 +1,6 @@
 # Javascript
 This is for Ai Automation and Integration Specialist
-Address: https://whitek4izer.github.io/Javascript/
+- Address: https://whitek4izer.github.io/Javascript/
 
 ### Source: 
 - Udemy - The Complete Full-Stack Web Development Bootcamp
