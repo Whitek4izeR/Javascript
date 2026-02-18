@@ -277,30 +277,6 @@ function beepersLeft() {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Errors
 
 When using functions in programming, several typical errors may occur:
