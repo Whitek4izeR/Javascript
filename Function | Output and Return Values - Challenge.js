@@ -37,11 +37,20 @@ Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_O
 
 // Code
 
+function bmiCalculator(weight, height){
+var bmi = weight / height (height * height);
+return Math.round(bmi);
+
+}
+
+// Code Optimized
+
 function bmiCalculator(weight, height) {
     return Math.round(weight / Math.pow(height,2));
 }
 
 var bmi = bmiCalculator(65, 1.8);
+
 
 
 
