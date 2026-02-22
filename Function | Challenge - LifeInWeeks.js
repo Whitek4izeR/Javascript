@@ -1,4 +1,5 @@
 // Parameters + Arguments - Challenge
+
 /* Life in Weeks Coding Exercise
 
 In this challenge, you are going to create a function that tells us how many days, weeks and months we have left if we live until 90 years old.
