@@ -1,4 +1,4 @@
-// Random Number Generator
+// Random Number Generator *****
 
 
 prompt.("what is your name?");
@@ -9,7 +9,7 @@ loveScore = Math.floor(loveScore) + 1;
 alert("Your love score is " + loveScore + "%");
 
 
-// If - Else Conditionals and Logic
+// If - Else Conditionals and Logic *****
 // Same Code with If - Else
 
 prompt.("what is your name?");
@@ -23,3 +23,10 @@ if (loveScore === 100){
   alert("Your love score is " + loveScore + "%");
 }
 loveScore = Math.floor(loveScore) + 1;
+
+
+// Comparators and Equality *****
+// !== not equal | >= is greater or equal to | <= is lesser or equal to
+
+
+
