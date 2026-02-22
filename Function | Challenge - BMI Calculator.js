@@ -1,3 +1,5 @@
+// Output and Return Values
+
 /*
 BMI - Body Mass Index
 BMI = weight (kg) / height ^2 (m^2)
