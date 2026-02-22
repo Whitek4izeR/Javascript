@@ -27,6 +27,7 @@ loveScore = Math.floor(loveScore) + 1;
 
 // Comparators and Equality *****
 // !== not equal | >= is greater or equal to | <= is lesser or equal to
-
+// === checks if they are equal and same data types 
+// == checks if they are equal but doesn't check if they are same data types
 
 
