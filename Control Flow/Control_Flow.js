@@ -31,3 +31,5 @@ loveScore = Math.floor(loveScore) + 1;
 // == checks if they are equal but doesn't check if they are same data types
 
 
+// Combining Comparators
+
