@@ -11,6 +11,11 @@ Write a function that outputs (returns) a different message depending on the BMI
 The message MUST be returned as an output from your function. You should NOT NEED to use alert, prompt or console.log in this challenge.
 IMPORTANT: the message wording has to match precisely for the code to pass the validation. Including punctuation and capitalisation.
 
+image
+https://github.com/Whitek4izeR/Javascript/blob/main/Assets/BMI.jpg
+
 */
+
+
 
 
