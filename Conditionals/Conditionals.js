@@ -1,19 +1,17 @@
 // Random Number Generator *****
 
-
-prompt.("what is your name?");
-prompt.("what is their name?");
+prompt("what is your name?");
+prompt("what is their name?");
 
 var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1;
 alert("Your love score is " + loveScore + "%");
 
-
 // If - Else Conditionals and Logic *****
 // Same Code with If - Else
 
-prompt.("what is your name?");
-prompt.("what is their name?");
+prompt("what is your name?");
+prompt("what is their name?");
 
 var loveScore = Math.random() * 100;
 
@@ -30,6 +28,58 @@ loveScore = Math.floor(loveScore) + 1;
 // === checks if they are equal and same data types 
 // == checks if they are equal but doesn't check if they are same data types
 
+prompt("what is your name?");
+prompt("what is their name?");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1; // 1 - 100
+
+if (loveScore > 70){
+  alert("Your love score is " + loveScore + "%" + "You love each other like Kanye loves Kanye.");
+} else {
+  alert("Your love score is " + loveScore + "%");
+}
 
 // Combining Comparators
+// && → AND 
+// || → OR
+// ! → Not
+
+
+prompt("what is your name?");
+prompt("what is their name?");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1; // 1 - 100
+
+if (loveScore > 70){
+  alert("Your love score is " + loveScore + "%" + "You love each other like Kanye loves Kanye.");
+} 
+if (loveScore > 30 && loveScore <= 70){
+  alert("Your love score is " + loveScore + "%");
+} 
+else {
+  alert("Your love score is " + loveScore + "%" + " You go together like oil and water");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
