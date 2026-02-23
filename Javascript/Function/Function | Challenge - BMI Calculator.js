@@ -45,6 +45,8 @@ return Math.round(bmi);
 
 }
 
+var bmi = bmiCalculator(65, 1.8);
+
 // Code Optimized
 
 function bmiCalculator(weight, height) {
