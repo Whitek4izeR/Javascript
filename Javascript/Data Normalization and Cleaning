@@ -1,0 +1,36 @@
+/ * 
+🧹 Comprehensive Guide: Data Normalization & Cleaning in JavaScript
+TL;DR
+
+Cleaning → Fix incorrect, inconsistent, missing, duplicated data.
+
+Normalization → Standardize formats (dates, phone, casing, numbers, schema).
+
+Use reusable utility functions + schema-based transformation.
+
+Always validate, sanitize, deduplicate, and standardize before storing.
+
+1️⃣ Core Concepts
+
+- Data Cleaning
+- Remove duplicates
+- Handle missing/null values
+- Trim whitespace
+- Fix casing inconsistencies
+- Remove invalid characters
+- Validate types
+- Fix malformed values (email, phone, dates)
+- Data Normalization
+- Convert values to standard formats
+- Convert dates → ISO 8601
+- Convert strings → consistent case
+- Convert numbers → proper numeric type
+- Map inconsistent keys → canonical schema
+- Normalize nested objects
+2️⃣ Common Cleaning & Normalization Utilities
+📁 src/utils/dataNormalization.js
+*/
+
+/* 2️⃣ Common Cleaning & Normalization Utilities
+📁 src/utils/dataNormalization.js
+
