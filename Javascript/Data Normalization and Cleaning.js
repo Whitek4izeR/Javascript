@@ -1,4 +1,6 @@
-/* TL;DR = “Too Long; Didn’t Read”
+/* Link Souce: https://chatgpt.com/share/699c6c67-eb30-800b-8f1c-1470235b1ddd
+
+TL;DR = “Too Long; Didn’t Read”
 
 It’s a short summary placed at the top (or bottom) of long content.
 
