@@ -16,6 +16,8 @@ https://github.com/Whitek4izeR/Javascript/blob/main/Assets/BMI.jpg
 
 */
 
+// Code
+
 function bmiCalculator(weight, height) {
     const bmi = Math.round(weight / Math.pow(height,2));
 
