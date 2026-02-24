@@ -68,4 +68,24 @@ function isLeap(year) {
 */
 
 // Code
+function isLeap(year) {
+    const leap = year % 4;   
+/**************Don't change the code above****************/    
+    
+if (leap === 0 && year % 100 !==0){
+  return ("Leap year.");
+}
+if(year % 100 === 0 && year % 400 === 0){
+  return ("Leap year.");
+}  
+else{
+  return ("Not leap year.");
+}
 
+
+/**************Don't change the code below****************/    
+
+}
+
+var resultLeap = isLeap(1900);
+console.log(resultLeap);
