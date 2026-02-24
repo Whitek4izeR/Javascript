@@ -45,7 +45,7 @@ Example Output 2
 
 Hint
 - Remember that the modulo (%) operator gives you the remainder of a division. We covered this in this lesson.
-- Try to visualise the rules by creating a flow chart on www.draw.io.
+- Try to visualise the rules by creating a flow chart on www.draw.io or excalidraw.com
 - If you really get stuck, you can see the flow chart I created. [ See Leapyear #1 and #2 images in Assets folder ]
 - Try to run your code in this Repl.it playground and check it against the known leap years.
 
