@@ -52,7 +52,7 @@ Hint
 */
 
 
-// Given
+/* Given
 
 function isLeap(year) {
     
@@ -65,6 +65,7 @@ function isLeap(year) {
 
 }
 
+*/
 
 // Code
 
