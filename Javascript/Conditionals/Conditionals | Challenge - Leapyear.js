@@ -88,3 +88,116 @@ else{
 
 var resultLeap = isLeap(1900);
 console.log(resultLeap);
+
+
+// Angela's Code
+
+function isLeap(year) {
+  const leap = year % 4;    
+/**************Don't change the code above****************/    
+
+
+if (year % 4 ===0){                // 1st Stage  
+  if (year % 100 ===0){            // 2nd Stage
+    if  (year % 400 ===0){         // 3rd Stage
+      return("Leap year.");
+    } else {                       // 3rd Stage - else
+        return ("Not leap year");
+    }
+  } else {                         // 2nd Stage - else
+      return ("Leap year.");
+  }
+} else {                           // 1st Stage  - else
+    return ("Not leap year");
+}
+
+
+
+
+/**************Don't change the code below****************/    
+}
+
+
+var resultLeap = isLeap(2100);
+console.log(resultLeap);
+
+
+
+
+// ChatGPT's Code version #1
+
+function isLeap(year) {
+  if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    return "Leap year.";
+  } else {
+    return "Not leap year.";
+  }
+}
+
+// ChatGPT's Code version #2
+
+function isLeap(year) {
+  return ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0))
+    ? "Leap year."
+    : "Not leap year.";
+}
+
+
+/*
+Between the two, Elizar’s version is better ✅ — but it can still be improved.
+
+Let’s break it down clearly.
+
+🔎 1️⃣ Elizar’s Code – Why It’s Better
+✅ Pros:
+
+Uses flat conditions (no deep nesting)
+Easier to read
+Cleaner logic flow
+Less indentation
+Easier to maintain
+
+❌ Small issue:
+
+It checks % 4 once and stores it in leap, but still checks % 100 and % 400 separately — which is fine, just slightly redundant structure-wise.
+
+🔎 2️⃣ Angela’s Code – What’s Different?
+❌ Cons:
+
+Deeply nested if statements
+Harder to read
+More indentation
+More mental effort to follow the logic
+It works correctly — but it’s less clean.
+
+🏆 Best Version (Cleaner Than Both) */
+
+// You can write it in one clean condition:
+
+function isLeap(year) {
+  if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    return "Leap year.";
+  } else {
+    return "Not leap year.";
+  }
+}
+
+// Or even shorter:
+
+function isLeap(year) {
+  return ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0))
+    ? "Leap year."
+    : "Not leap year.";
+}
+
+/*
+🎯 Final Verdict
+
+🥇 Best logic structure → Single combined condition (cleanest)
+🥈 Elizar’s version → Good, readable
+🥉 Angela’s version → Works, but too nested
+
+If you’re coding professionally, readability + simplicity wins every time.
+If you'd like, I can explain why combining conditions is considered better practice in software development.
+
+*/
