@@ -50,3 +50,21 @@ Hint
 - Try to run your code in this Repl.it playground and check it against the known leap years.
 
 */
+
+
+// Given
+
+function isLeap(year) {
+    
+/**************Don't change the code above****************/    
+    
+    //Write your code here.    
+
+
+/**************Don't change the code below****************/    
+
+}
+
+
+// Code
+
