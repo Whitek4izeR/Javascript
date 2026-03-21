@@ -1,6 +1,17 @@
 // Create a flow chart - go to draw.io and map how the logic looks like
 // Fibonacci Diagram - https://drive.google.com/file/d/1g8vVtqhSj44vcElfc-HK0nMbecteW8Yg/view
 
+Why is it that in the tutorial its easy but when already doing or headed to a problem I am having problem.
+- Pulling out the information.
+- Retrieval of Information.
+- Practice as much as you can.
+- Look up exercises in the internet.
+- Try to make up questions, quizes for your self.
+- Test yourself in the variations of what you learn in the tutorials.
+- Anticipate what the tutorials what about to do - and do beforehand - pause the video.
+- Once you know what to do - do it by yourself.
+- Focus > Skill > Do it more! - Watch + Do + Practice
+
 /*
 
 The Fibonacci Exercise
