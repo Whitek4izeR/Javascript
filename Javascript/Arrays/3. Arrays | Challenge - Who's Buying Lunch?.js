@@ -45,9 +45,11 @@ function whosPaying(names) {
     
     //Write your code here.
     
-    let x = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
-    random.x;
-    
+    var numberOfPeople = names.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[randomPersonPosition];
+
+    return randomPerson + " is going to buy lunch today!";
     
 /******Don't change the code below*******/    
 }
